@@ -1,0 +1,450 @@
+
+body{
+	padding: 0;
+	font-family: 'Arial';
+	
+}
+
+li{
+	list-style-type: none;
+	display: inline;
+}
+
+a{
+	text-decoration: none;
+}
+
+.menu{
+	display: inline-flex;
+}
+
+.menu a{
+	margin-left: 5px;
+	color:gray;
+}
+
+.imenu{
+	display: inline-flex;
+	float: right;
+	margin-right: 2%;
+
+}
+
+.imenu a{
+	margin-left: 10px;
+	color: #a2193c;
+}
+
+h1{
+	display: inline-flex;
+	margin-bottom: 150px;
+}
+
+img{
+	display: inline-flex;
+	float: right;
+	margin-right: 2%;
+
+}
+
+main{
+	border-top: 2px solid gray;
+}
+
+#phandi{
+	display: inline-flex;
+
+}
+
+h3{
+	display: inline-flex;
+	float: right;
+	margin-right: 1%;
+}
+
+h3 a{
+	color: #a2193c;
+}
+
+#VHEspace{
+	margin-left: 4px;
+	color: #a2193c;
+}
+
+#aller-retour{
+	background-color: lightgray;
+	border-radius: 4px;
+	margin-bottom: 50px;
+}
+
+
+#dpt{
+	display: inline-flex;
+	width: 30%;
+	margin-bottom: 50px;
+	margin-left: 10%;
+}
+
+
+#arr{
+	display: inline-flex;
+	width: 30%;
+	margin-bottom: 50px;
+	float:right;
+
+}
+
+
+#start{
+	display: inline-flex;
+	width: 30%;
+	margin-bottom: 50px;
+	margin-left: 10%;
+
+}
+
+#return{
+	display: inline-flex;
+	width: 30%;
+	margin-bottom: 50px;
+	float:right;
+}
+
+
+#trajetcheck{
+	display: inline-flex;
+	width: 30%;
+	margin-bottom: 50px;
+	margin-left: 10%;
+}
+
+#trajetvia{
+	display: inline-flex;
+	width: 30%;
+	margin-bottom: 50px;
+	float:right;
+}
+
+#confort{
+	margin-bottom: 50px;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+
+}
+
+#nbpassager{
+	display: inline-flex;
+	margin-top: 0px;
+
+	
+}
+
+#passager{
+	margin-bottom: 20px;
+}
+
+#passager1{
+	background-color: lightgray;
+	height: 130px;
+	border-radius: 4px;
+	margin-bottom: 50px;
+}
+
+
+h4{
+	color: #a2193c;
+	padding: 10px;
+	margin: 10px;
+	border-bottom: 2px solid gray;
+
+}
+
+#prfl{
+	width: 30%;
+	margin-bottom: 5px;
+	margin-left: 1%;
+}
+
+#carte{
+	display: inline-flex;
+	width: 30%;
+	margin-bottom: 5px;
+	margin-left: 1%;
+}
+
+#code{
+	display: inline-flex;
+	width: 30%;
+	margin-bottom: 5px;
+	margin-left: 1%;
+}
+
+#prog{
+	width: 30%;
+	margin-bottom: 10px;
+	margin-left: 1%;
+}
+
+#ligne{
+	border-bottom: 2px solid gray;
+}
+
+#chevr{
+	margin-bottom: 50px;
+}
+
+#chevr i{
+	color: #a2193c;
+}
+
+#chevr a{
+	color: black;
+}
+
+#rechercher{
+	display: inline-flex;
+	background-color:#a2193c;
+	color: white;
+	border-radius: 4px;
+	float: right;
+	margin-right: 1%;
+}
+
+#horaires{
+	display: inline-flex;
+	background-color: lightgray;
+	color: #a2193c;
+	border-radius: 4px;
+}
+
+.lbs{
+	margin-left: 5px;
+}
+
+/******************************** Responsive ***********************************/
+
+@media screen (min-width: 320px) {
+
+	body{
+		padding: 0;
+		font-family: 'Arial';
+	
+	}
+
+	li{
+		list-style-type: none;
+		display: inline;
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+	.menu{
+		display: inline-flex;
+	}
+
+	.menu a{
+		margin-left: 5px;
+		color:gray;
+	}
+
+	.imenu{
+		display: inline-flex;
+		float: right;
+		margin-right: 2%;
+
+	}
+
+	.imenu a{
+		margin-left: 10px;
+		color: #a2193c;
+	}
+
+	h1{
+		display: inline-flex;
+		margin-bottom: 150px;
+	}
+
+	img{
+		display: inline-flex;
+		float: right;
+		margin-right: 2%;
+
+	}
+
+	main{
+		border-top: 2px solid gray;
+	}
+
+	#phandi{
+		display: inline-flex;
+
+	}
+
+	h3{
+		display: inline-flex;
+		float: right;
+		margin-right: 1%;
+	}
+
+	h3 a{
+		color: #a2193c;
+	}
+
+	#VHEspace{
+		margin-left: 4px;
+		color: #a2193c;
+	}
+
+	#aller-retour{
+		background-color: lightgray;
+		border-radius: 4px;
+		margin-bottom: 50px;
+	}
+
+
+	#dpt{
+		display: inline-flex;
+		width: 30%;
+		margin-bottom: 50px;
+		margin-left: 10%;
+	}
+
+
+	#arr{
+		display: inline-flex;
+		width: 30%;
+		margin-bottom: 50px;
+		float:right;
+
+	}
+
+
+	#start{
+		display: inline-flex;
+		width: 30%;
+		margin-bottom: 50px;
+		margin-left: 10%;
+
+	}
+
+	#return{
+		display: inline-flex;
+		width: 30%;
+		margin-bottom: 50px;
+		float:right;
+	}
+
+
+	#trajetcheck{
+		display: inline-flex;
+		width: 30%;
+		margin-bottom: 50px;
+		margin-left: 10%;
+	}
+
+	#trajetvia{
+		display: inline-flex;
+		width: 30%;
+		margin-bottom: 50px;
+		float:right;
+	}
+
+	#confort{
+		margin-bottom: 50px;
+		border-top: 2px solid gray;
+		border-bottom: 2px solid gray;
+
+	}
+
+	#nbpassager{
+		display: inline-flex;
+		margin-top: 0px;
+
+		
+	}
+
+	#passager{
+		margin-bottom: 20px;
+	}
+
+	#passager1{
+		background-color: lightgray;
+		height: 130px;
+		border-radius: 4px;
+		margin-bottom: 50px;
+	}
+
+
+	h4{
+		color: #a2193c;
+		padding: 10px;
+		margin: 10px;
+		border-bottom: 2px solid gray;
+
+	}
+
+	#prfl{
+		width: 30%;
+		margin-bottom: 5px;
+		margin-left: 1%;
+	}
+
+	#carte{
+		display: inline-flex;
+		width: 30%;
+		margin-bottom: 5px;
+		margin-left: 1%;
+	}
+
+	#code{
+		display: inline-flex;
+		width: 30%;
+		margin-bottom: 5px;
+		margin-left: 1%;
+	}
+
+	#prog{
+		width: 30%;
+		margin-bottom: 10px;
+		margin-left: 1%;
+	}
+
+	#ligne{
+		border-bottom: 2px solid gray;
+	}
+
+	#chevr{
+		margin-bottom: 50px;
+	}
+
+	#chevr i{
+		color: #a2193c;
+	}
+
+	#chevr a{
+	color: black;
+	}
+
+	#rechercher{
+		display: inline-flex;
+		background-color:#a2193c;
+		color: white;
+		border-radius: 4px;
+		float: right;
+		margin-right: 1%;
+	}
+
+	#horaires{
+		display: inline-flex;
+		background-color: lightgray;
+		color: #a2193c;
+		border-radius: 4px;
+	}
+
+	.lbs{
+	margin-left: 5px;
+	}
+
+}
