@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://kit.fontawesome.com/9699c064e3.js" crossorigin="anonymous"></script>
+	<title>Formulaire</title>
+</head>
+<body>
+	<nav>
+
+		<ul class="menu">
+			<li><a href="#">Voyageurs /</a></li>
+			<li><a href="#">Billets & info trajets /</a></li>
+		</ul>
+
+		<ul class="imenu">
+			<li><a href="#"><i class="fas fa-print"></i></a></li>
+			<li><a href="#"><i class="fas fa-share-alt"></i></a></li>
+		</ul>
+
+	</nav>
+
+	<h1>RESERVATION</h1>
+
+		<img src="img/logo-voyage-sncf.jpg" id="logosncf">
+<main>
+	<p id="phandi"><i class="fas fa-wheelchair"></i>Voyageur handicapé, rendez-vous sur votre <a href="#" id="VHEspace"><strong>espace dédié</strong></a></p>
+
+	<h3><a href="#">GERER MES RESERVATIONS <i class="fas fa-chevron-right"></i></a></h3>
+
+	<figcaption id="legende"><p><em>* Champs obligatoires</em></p></figcaption>
+
+	<form id="formrésa" action="réservationvalidée.html">
+
+
+		<div id="aller-retour">
+			<input type="checkbox" name="aller-retour" value="aller-retour">
+  			<label for="aller-retour" class="lbs"><strong>Aller et retour différents</strong></label>
+		</div>
+
+
+		<div id="départ-arrivée">
+
+			<div id="dpt">
+				<label for="Départ"><strong>Départ *</strong></label>
+				<input type="text" name="Départ" value="" required="" class="lbs">
+			</div>
+
+			<div id="arr">
+				<label for="Arrivée"><strong>Arrivée *</strong></label>
+				<input type="text" name="Arrivée" value="" required="" class="lbs">
+			</div>
+
+		</div>
+
+
+		<div id="depart-retour">
+
+			<div id="start">
+				<label for="Allerle"><strong>Aller le *</strong></label>
+				<input type="datetime-local" id="Allerle" name="Allerle" value="2016-07-04" min="2000-06-07T00:00" max="2030-06-14T00:00" required="" class="lbs">
+
+				<select name="Départà" id="Départà">
+				  <option value="Départà">Départ à</option>
+				  <option value="Arrivéeà">Arrivée à</option>
+				</select>
+
+				<select name="heureD" id="heureD">
+				  <option value="heureD06h00">06h00</option>
+				  <option value="heureD07h00">07h00</option>
+				  <option value="heureD08h00">08h00</option>
+				  <option value="heureD09h00">09h00</option>
+				  <option value="heureD10h00">10h00</option>
+				  <option value="heureD11h00">11h00</option>
+				  <option value="heureD12h00">12h00</option>
+				  <option value="heureD13h00">13h00</option>
+				  <option value="heureD14h00">14h00</option>
+				  <option value="heureD15h00">15h00</option>
+				  <option value="heureD16h00">16h00</option>
+				  <option value="heureD17h00">17h00</option>
+				  <option value="heureD18h00">18h00</option>
+				  <option value="heureD19h00">19h00</option>
+				  <option value="heureD20h00">20h00</option>
+				  <option value="heureD21h00">21h00</option>
+				  <option value="heureD22h00">22h00</option>
+				  <option value="heureD23h00">23h00</option>
+				  <option value="heureD00h00">00h00</option>
+				</select>
+
+			</div>
+
+			<div id="return">
+
+				<label for="Retourle"><strong>Retour le</strong></label>
+				<input type="datetime-local" id="Retourle" name="Retourle" value="2016-07-04" min="2000-06-07T00:00" max="2030-06-14T00:00" required="" class="lbs">
+
+				<select name="Départà" id="Départà">
+				  <option value="Départà">Départ à</option>
+				  <option value="Arrivéeà">Arrivée à</option>
+				</select>
+
+				<select name="heureR" id="heureR">
+				  <option value="heureR06h00">06h00</option>
+				  <option value="heureR07h00">07h00</option>
+				  <option value="heureR08h00">08h00</option>
+				  <option value="heureR09h00">09h00</option>
+				  <option value="heureR10h00">10h00</option>
+				  <option value="heureR11h00">11h00</option>
+				  <option value="heureR12h00">12h00</option>
+				  <option value="heureR13h00">13h00</option>
+				  <option value="heureR14h00">14h00</option>
+				  <option value="heureR15h00">15h00</option>
+				  <option value="heureR16h00">16h00</option>
+				  <option value="heureR17h00">17h00</option>
+				  <option value="heureR18h00">18h00</option>
+				  <option value="heureR19h00">19h00</option>
+				  <option value="heureR20h00">20h00</option>
+				  <option value="heureR21h00">21h00</option>
+				  <option value="heureR22h00">22h00</option>
+				  <option value="heureR23h00">23h00</option>
+				  <option value="heureR00h00">00h00</option>
+				</select>
+
+			</div>
+			
+		</div>
+
+
+		<div id="trajet">
+
+			<div id="trajetcheck">
+				<input type="checkbox" name="trajet" value="trajet">
+	  			<label for="trajet"><strong>Trajet direct</strong></label>
+			</div>
+
+			<div id="trajetvia">
+	  			<label for="Outrajetvia"><strong>Ou trajet via</strong></label>
+				<input type="text" name="Outrajetvia" value="" class="lbs">
+			</div>
+
+		</div>
+
+
+		<div id="confort">
+
+				<label for="confort"><strong>CONFORT</strong></label>
+
+				<input type="radio" id="1ère classe" name="1ère classe" value="">
+				<label for="1ère classe"><strong>1ère classe</strong></label>
+
+				<input type="radio" id="2nde classe" name="2nde classe" value="" checked="">
+				<label for="2nde classe"><strong>2nde classe</strong></label>
+						
+		</div>
+
+
+		<h3 id="nbpassager"><a href="#">PLUS DE 9 PASSAGERS <i class="fas fa-chevron-right"></i></a></h3>
+
+		<div id="passager">
+
+			<label for="PASSAGERS"><strong>PASSAGERS</strong></label>
+
+			<select name="PASSAGERS" id="PASSAGERS">
+			  <option value="1passager">1</option>
+			  <option value="2passagers">2</option>
+			  <option value="3passagers">3</option>
+			  <option value="4passagers">4</option>
+			  <option value="5passagers">5</option>
+			  <option value="6passagers">6</option>
+			  <option value="7passagers">7</option>
+			  <option value="8passagers">8</option>
+			  <option value="9passagers">9</option>
+			</select>
+
+			
+		</div>
+
+
+		<div id="passager1">
+
+			<h4>PASSAGER 1</h4>
+
+			<div id="prfl">
+
+				<label for="Profil"><strong>Profil du passager</strong></label>
+
+				<select name="Profil" id="Profil" class="lbs">
+				  <option value="Profil0-10-ans">0-10 ans</option>
+				  <option value="Profil10-18-ans">10-18 ans</option>
+				  <option value="Profil18-26-ans">18-26 ans</option>
+				  <option value="Profil26-59-ans">26-59 ans</option>
+				  <option value="Profil59-ans-et-plus">59 ans et plus</option>
+				</select>
+
+			</div>
+
+			<div id="carte">
+
+				<label for="carteabo"><strong>Carte et Abonnement</strong></label>
+
+				<select name="carteabo" id="carteabo" class="lbs">
+				  <option value="Cartes-&-abonnements">Cartes & abonnements</option>
+				  <option value="Carte-Avantage-Jeune">Carte Avantage Jeune</option>
+				  <option value="Carte-Avantage-Week-end">Carte Avantage Week-end</option>
+				  <option value="Carte-Avantage-Senior">Carte Avantage Senior</option>
+				  <option value="Carte-Avantage-Familles">Carte Avantage Familles</option>
+				  <option value="Carte-Liberté">Carte Liberté</option>
+				  <option value="Carte-de-fidélité-SNCF">Carte de fidélité SNCF</option>
+				</select>
+
+			</div>
+
+
+			<div id="code">
+				<label for="code"><strong>Code avantage</strong></label>
+				<input type="text" name="code" value="Saisissez ici votre code" class="lbs">
+			</div>
+
+			<div id="prog">
+
+				<label for="progfidel"><strong>Programme fidélité</strong></label>
+
+				<select name="progfidel" id="progfidel" class="lbs">
+				  <option value="Programme-fidélité">Programme fidélité</option>
+				  <option value="oui">oui</option>
+				  <option value="non">non</option>
+				</select>
+
+			</div>
+			
+		</div>
+
+		<div id="ligne"></div>
+
+			<p id=chevr><a href="#"><i class="fas fa-chevron-right"></i>Voyager avec votre animal de compagnie</a></p>
+
+			<button id="horaires"><strong>HORAIRES SEULS</strong></button>
+			<button type="submit" id="rechercher"><strong>RECHERCHER</strong></button>
+	
+
+	</form>
+
+
+		<h3><a href="#">INFORMATIONS SUR LES EMISSION DE CO2 <i class="fas fa-chevron-right"></i></a></h3>
+		
+</main>
+</body>
+</html>
